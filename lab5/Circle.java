@@ -24,4 +24,8 @@ public class Circle extends Point {
         this.radius = radius;
     }
     
+    public String toString(){
+        return "X Coordinate: " + x + " Y Coordinate: " + y + " Radius: " + radius;
+    }
+    
 }
